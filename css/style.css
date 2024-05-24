@@ -9,6 +9,7 @@
 
 }
 .menu nav a {
+    color: black;
     padding-top: 60px;
     text-decoration: none;
     font-size: 25px;
@@ -65,6 +66,12 @@ h2 {
     list-style: none;
     padding-top: 1rem;
     text-align: center;
+    
+}
+
+.contatos a {
+    text-decoration: none;
+    color: white;
 }
 
 .logo-footer {
@@ -74,9 +81,66 @@ h2 {
 
 .formulario {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;   
 }
 
 .formulario fieldset {
     padding: 2rem 2rem;
+    margin-top: 2rem;
+
+}
+
+.formulario input, .formulario label {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* Responsividade do site */
+
+
+/* 800px*/
+
+@media (max-width: 650px)  {
+
+    .menu nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .painel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+
+    .ofertas nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contatos {
+        font-size: 20px;
+    }
+
+   
+}
+
+@media (max-width:950px) {
+    .ofertas nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Quando tela for menor o ultimo card fica invisivel*/
+    .card3 {
+        display: none;
+    }
 }
