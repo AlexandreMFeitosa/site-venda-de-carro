@@ -97,6 +97,31 @@ h2 {
     margin-bottom: 10px;
 }
 
+.servicos-uteis {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    
+}
+
+.servicos-uteis nav {
+    text-align: center;
+    margin-top: 25px;
+    
+}
+
+.servicos-uteis button {
+    border-radius: 5px;
+    height: 50px;
+    background-color: white;
+    
+}
+
+.servicos-uteis a {
+    text-decoration: none;
+    color: black;
+}
+
 
 /* Responsividade do site */
 
